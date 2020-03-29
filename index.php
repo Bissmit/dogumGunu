@@ -19,7 +19,7 @@
     <div class="ustmenu" style="padding-bottom: 2px; ">
     	<div class="solResim float-right"></div>
     	<div class="solResim float-left"></div>
-  		<h1 class="" style="margin-top: 20px; padding-top: 3px;"> Hello, World!<br><span style=" background-image: url();margin-bottom: 0px; margin-top: 0px;" class="badge badge-info badge-pill">20</span> </h1>
+  		<h1 class="" style="margin-top: 20px; padding-top: 3px;"> Ali Emre KOCATÜRK!<br><span style=" background-image: url();margin-bottom: 0px; margin-top: 0px;" class="badge badge-info badge-pill">20</span> </h1>
     </div>
 
 
