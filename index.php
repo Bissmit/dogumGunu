@@ -26,6 +26,21 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+	<script>
+	  var OneSignal = window.OneSignal || [];
+	  OneSignal.push(function() {
+	    OneSignal.init({
+	      appId: "82fd971b-31fe-4179-8dc0-ab5aca74ea8c",
+	      notifyButton: {
+	        enable: true,
+	      },
+	    });
+	  });
+	</script>
+
+    
 </head>
 <body style="background-image: url('https://i.pinimg.com/originals/11/a7/56/11a75676504c93cc32153c7c7aae23f6.gif');">
 	
