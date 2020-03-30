@@ -98,7 +98,7 @@
 	<!-- Timer counter start -->
 	<script>
         $(document).ready(function (){
-			var myDate = new Date("Mar 30, 2020 14:27:00");
+			var myDate = new Date("Mar 31, 2020 24:00:00");
 			//var myDate = new Date();vv
 			myDate.setDate(myDate.getDate());
             $("#countdown").countdown(myDate, function (event) {
@@ -114,7 +114,7 @@
 
     <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 30, 2020 14:27:00").getTime();
+var countDownDate = new Date("Mar 31, 2020 24:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
