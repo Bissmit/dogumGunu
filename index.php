@@ -11,7 +11,7 @@
     <meta name="author" content="Awaiken Theme">
     <meta name='robots' content='noindex,nofollow' />
 	<!-- Page Title -->
-	<title>Çok Yakında !</title>
+	<title>Doğum Günü !</title>
 	<!-- Google Fonts css-->
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
 	<!-- Bootstrap css -->
@@ -40,7 +40,7 @@
 	  });
 	</script>
 
-    
+
 </head>
 <body style="background-image: url('https://i.pinimg.com/originals/11/a7/56/11a75676504c93cc32153c7c7aae23f6.gif');">
 	
