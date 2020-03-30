@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -43,10 +42,10 @@
 
 </head>
 <body style="background-image: url('https://i.pinimg.com/originals/11/a7/56/11a75676504c93cc32153c7c7aae23f6.gif');">
-	
+
 	<!-- Coming Soon Wrapper starts -->
 	<div class="comming-soon">
-		
+
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -57,7 +56,7 @@
 							<p>En yakın zamanda sizlerle...</p>
 						</div>
 						<!-- Logo end -->
-						
+
 						<!-- Types Information start -->
 						<div class="coming-text">
 							<p>Sakin ol</p>
@@ -70,18 +69,18 @@
 							</div>
 						</div>
 						<!-- Types Information end -->
-						
+
 						<!-- Countdown start -->
 						<div class="countdown-timer-wrapper">
 							<div class="timer" id="countdown"></div>
 						</div>
 						<!-- Countdown end -->
-						
+
 						<!-- kendi geri sayim basladi -->
 						<p id="demo"></p>
-						
+
 						<!-- kendi gerisayim bitti -->
-						
+
 						<!-- Social Media start -->
 						<div class="social-link">
 							<a href=""><i class="fab fa-facebook"></i></a>
@@ -90,7 +89,7 @@
 							<a href=""><i class="fab fa-pinterest"></i></a>
 							<a href=""><i class="fab fa-instagram"></i></a>
 						</div>
-						<!-- Social Media end -->	
+						<!-- Social Media end -->
 					</div>
 				</div>
 			</div>
@@ -154,7 +153,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "Beklenen an geldi, 3sn içinde yönlendiriliyorsunuz...";
-    window.setTimeout(function(){location.href = 'giris/';}, 3000); 
+    window.setTimeout(function(){location.href = 'giris/';}, 3000);
   }
 }, 1000);
 </script>

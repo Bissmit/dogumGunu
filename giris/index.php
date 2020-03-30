@@ -1,3 +1,8 @@
+<?php
+
+ if(!$_SERVER['HTTP_REFERER']=='http://localhost/dgp')
+ header("Location: http://localhost/dgp")
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,7 +24,7 @@ $(document).ready(function(){
 play()
 });
 </script>
-    
+
     <div class="ustmenu" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding-bottom: 2px; ">
     	<div class="solResim bg-warning float-right"></div>
     	<div class="solResim bg-warning float-left"></div>
@@ -30,7 +35,7 @@ play()
 
     <div class="container " style="background-image: url(img/glitter-gif-png-5-original.gif); padding-bottom: 10px;">
 
-	
+
     	<img class="resim" src="img/pngguru.com.png" width="90%">
 
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -107,31 +112,31 @@ play()
 
 </video>
 <script type="text/javascript">
-  audio = new Audio(); 
-  
+  audio = new Audio();
+
   audio.src = "img/happy-birthday-motion-background-free-hd.mp3";
-  
+
   audio.loop = true;
-  
-  audio.play(); 
+
+  audio.play();
 
 	function playgif() {
 	document.getElementById('vid').play();
-     
+
     }
 
     function pausegif() {
       document.getElementById('vid').pause();
-    }  
+    }
 
 	function play() {
-	
+
       audio.play();
     }
 
     function pause() {
       audio.pause();
-    }  
+    }
 </script>
 	<div class="hero-image">
 
@@ -140,13 +145,13 @@ play()
     	</div>
 
 	</div>
-	
+
 
 	<div class="alt">
 		<div class="container alt text-light">
 			Bu site Ali Emre KOCATÜRK' için en best arkadaşları tarafından yapılmıştır. Nice mutlu yıllara... © 2020</div>
-		
-		 
+
+
 	</div>
 
     <!-- Optional JavaScript -->
