@@ -53,7 +53,7 @@
 						<!-- Logo Start -->
 						<div style="color: white;">
 							<h1>Ali Emre KOCATÜRK</h1>
-							<p>En yakın zamanda sizlerle...</p>
+							<p>En yakın zamanda sizlerle!..</p>
 						</div>
 						<!-- Logo end -->
 
