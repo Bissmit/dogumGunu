@@ -148,12 +148,12 @@ var x = setInterval(function() {
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
-
+if(isNaN(distance)){ clearInterval(x);   document.getElementById("demo").innerHTML = "Geri sayim bu tarayicida desteklenmiyor size erişim açılıyor... 10sn sonra.";
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Beklenen an geldi, 3sn içinde yönlendiriliyorsunuz...";
-    window.setTimeout(function(){location.href = 'giris/';}, 3000);
+    document.getElementById("demo").innerHTML = "Beklenen an geldi, YAKINDA YÖNLENCEK...";
+    //window.setTimeout(function(){location.href = 'giris/';}, 10000);
   }
 }, 1000);
 </script>
