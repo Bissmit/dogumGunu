@@ -71,13 +71,14 @@ play()
 		    <div class="carousel-item">
 		      <img src="img/slide3.png" class="d-block w-100" alt="...">
 		    </div>
+        <div class="carousel-item">
+          <img src="img/slideSecond.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide4.png" class="d-block w-100" alt="...">
+        </div>
 		  </div>
-      <div class="carousel-item">
-        <img src="img/slideSecond.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/slide4.png" class="d-block w-100" alt="...">
-      </div>
+
     </div>
 
 		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
