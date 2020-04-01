@@ -1,8 +1,13 @@
 <?php
+$kok = "http://".$_SERVER['HTTP_HOST']."/dgp/";
+$referer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'yok';
 
- if(!$_SERVER['HTTP_REFERER']=='http://localhost/dgp')
- header("Location: http://localhost/dgp")
+ /*echo "kok= $kok <br> refere= $referer";*/
+ if(!$_SERVER['HTTP_REFERER']==$kok)
+ header("Location: $kok")
+
 ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -58,15 +63,23 @@ play()
 		<div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img src="img/slideThird.png" class="d-block w-100" alt="...">
+		      <img src="img/slide2.png" class="d-block w-100" alt="...">
 		    </div>
 		    <div class="carousel-item">
 		      <img src="img/slideFirst.png" class="d-block w-100" alt="...">
 		    </div>
 		    <div class="carousel-item">
-		      <img src="img/slideSecond.png" class="d-block w-100" alt="...">
+		      <img src="img/slide3.png" class="d-block w-100" alt="...">
 		    </div>
 		  </div>
+      <div class="carousel-item">
+        <img src="img/slideSecond.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide4.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
 		  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Previous</span>
@@ -84,22 +97,22 @@ play()
 
 
 
-    <blockquote class="blockquote text-center ">
-  		<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-  		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Mıstıfa SEZİŞLİ</cite></footer>
-	</blockquote>
-    <blockquote class="blockquote text-center">
-  		<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-  		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">İnes CEYLAN</cite></footer>
-	</blockquote>
-	<blockquote class="blockquote text-center">
-  		<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-  		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Selim ERVÜZ</cite></footer>
-	</blockquote>
-	    <blockquote class="blockquote text-center">
-  		<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-  		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Hamza ÇELİK</cite></footer>
-	</blockquote>
+        <blockquote class="blockquote text-center ">
+      		<p class="mb-0">Dogum gunun kutlu olsun kivircik nice senelere seviliyosun notu var karsim.</p>
+      		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Mustafa SEZİŞLİ</cite></footer>
+    	</blockquote>
+        <blockquote class="blockquote text-center">
+      		<p class="mb-0">Sayın ae bey. Bundan tam 19 yıl önce doğup dünyamızı şenlendirdiğiniz için size teşekkür ediyorum.</p>
+      		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Enes CEYLAN</cite></footer>
+    	</blockquote>
+    	<blockquote class="blockquote text-center">
+      		<p class="mb-0">İyi ki doğdun Ali.</p>
+      		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Selim ERVÜZ</cite></footer>
+    	</blockquote>
+    	    <blockquote class="blockquote text-center">
+      		<p class="mb-0">Ama coşkun, ama yorgun, bir yıl daha geçiyor yaşamından.. Olsun. Sevgilerin en güzeli ile yoğrul, Sene-i tevellüdünüz ferruh ola.</p>
+      		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Hamza ÇELİK</cite></footer>
+    	</blockquote>
 <button onclick="play()" type="button" class="btn btn-primary btn-sm">Sesi Aç</button>
 <button onclick="pause()" type="button" class="btn btn-primary btn-sm">Sesi Kıs</button>
 <button onclick="playgif()" type="button" class="btn btn-primary btn-sm">Gif Oynat</button>
@@ -114,7 +127,7 @@ play()
 <script type="text/javascript">
   audio = new Audio();
 
-  audio.src = "img/happy-birthday-motion-background-free-hd.mp3";
+  audio.src = "img/cem.mp3";
 
   audio.loop = true;
 

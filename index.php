@@ -41,7 +41,7 @@
 
 
 </head>
-<body style="background-image: url('https://i.pinimg.com/originals/11/a7/56/11a75676504c93cc32153c7c7aae23f6.gif');">
+<body style="background-image: url('background.gif');">
 
 	<!-- Coming Soon Wrapper starts -->
 	<div class="comming-soon">
@@ -69,7 +69,11 @@
 							</div>
 						</div>
 						<!-- Types Information end -->
+						<audio loop autoplay>
 
+						  <source src="epic.mp3" type="audio/mpeg">
+
+						</audio>
 						<!-- Countdown start -->
 						<div class="countdown-timer-wrapper">
 							<div class="timer" id="countdown"></div>
@@ -148,14 +152,22 @@ var x = setInterval(function() {
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
-if(isNaN(distance)){ clearInterval(x);   document.getElementById("demo").innerHTML = "Geri sayim bu tarayicida desteklenmiyor size erişim açılıyor... 10sn sonra.";
+
   // If the count down is finished, write some text
+	if(isNaN(distance))
+	{
+		clearInterval(x);
+		document.getElementById("demo").innerHTML = "Geri sayim bu tarayicida desteklenmiyor size erişim açılıyor... 13sn sonra.";
+		window.setTimeout(function(){location.href = 'giris/';}, 13000);}
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Beklenen an geldi, YAKINDA YÖNLENCEK...";
-    //window.setTimeout(function(){location.href = 'giris/';}, 10000);
+    document.getElementById("demo").innerHTML = "Beklenen an geldi, 13sn içinde yönlendiriliyorsunuz...";
+    window.setTimeout(function(){location.href = 'giris/';}, 13000);
   }
 }, 1000);
+
+
+
 </script>
 	<!-- Timer counter end -->
 </body>
