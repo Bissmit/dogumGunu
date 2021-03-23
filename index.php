@@ -116,7 +116,7 @@
 	<!-- Timer counter start -->
 	<script>
         $(document).ready(function (){
-			var myDate = new Date("Mar 31, 2020 24:00:00");
+			var myDate = new Date("Mar 31, 2021 24:00:00");
 			//var myDate = new Date();vv
 			myDate.setDate(myDate.getDate());
             $("#countdown").countdown(myDate, function (event) {
