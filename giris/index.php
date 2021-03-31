@@ -1,10 +1,11 @@
 <?php
 $kok = "http://".$_SERVER['HTTP_HOST'];
 $referer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'yok';
-
+$ac = isset($_GET["ac"]) ? $_GET["isim"]: 0;
  /*echo "kok= $kok <br> refere= $referer";*/
+if($ac != 1)
  if(!$_SERVER['HTTP_REFERER']==$kok)
- header("Location: $kok")
+ 	header("Location: $kok")
 
 ?>
 
