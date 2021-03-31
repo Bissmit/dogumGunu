@@ -1,5 +1,8 @@
 body{
-	/*background-color: #BACBD9 !important;*/
+	background-image: url("https://algoritmam.net/img/tablo.jpg") !important;
+	background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .slidemy{
 
@@ -8,8 +11,8 @@ body{
 }
 
 .ustmenu{
-	background-color: powderblue;
-	
+	background-color: transparent;
+
 	/*height: 100px;*/
 	margin-top: 20px;
 
@@ -57,7 +60,7 @@ body, html {
 
 .alt{
 
-	
+
 	background-color: black;
 
 }
