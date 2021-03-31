@@ -8,7 +8,6 @@ if($ac != 1)
  	header("Location: $kok")
 
 ?>
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -34,7 +33,7 @@ play()
     <div class="ustmenu" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding-bottom: 2px; ">
     	<div class="solResim bg-warning float-right"></div>
     	<div class="solResim bg-warning float-left"></div>
-  		<h1 class="" style="text-shadow: 2px 2px 5px #4f4b4b; margin-top: 20px; padding-top: 3px;"> Ali Emre KOCATÜRK!<br><span style=" background-image: url();margin-bottom: 0px; margin-top: 0px;" class="badge badge-info badge-pill">20</span> </h1>
+  		<h1 class="" style="text-shadow: 2px 2px 5px #4f4b4b; margin-top: 20px; padding-top: 3px; color:white"> Ali Emre KOCATÜRK!<br><span style=" background-image: url();margin-bottom: 0px; margin-top: 0px;" class="badge badge-info badge-pill">21</span> </h1>
     </div>
 
 
@@ -42,7 +41,7 @@ play()
     <div class="container " style="background-image: url(img/glitter-gif-png-5-original.gif); padding-bottom: 10px;">
 
 
-    	<img class="resim" src="img/pngguru.com.png" width="90%">
+    	<img class="resim" style = "opacity: 0.3;" src="img/pngguru.com.png" width="90%">
 
 		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 		  <div class="carousel-inner">
@@ -100,11 +99,11 @@ play()
 
 
         <blockquote class="blockquote text-center ">
-      		<p class="mb-0">Dogum gunun kutlu olsun kivircik nice senelere seviliyosun notu var karsim.</p>
+      		<p class="mb-0">Happy new old jaly hddhdjdhdhdhd</p>
       		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Mustafa SEZİŞLİ</cite></footer>
     	</blockquote>
         <blockquote class="blockquote text-center">
-      		<p class="mb-0">Sayın ae bey. Bundan tam 19 yıl önce doğup dünyamızı şenlendirdiğiniz için size teşekkür ediyorum.</p>
+      		<p class="mb-0">Sayın kıvırcık bey saçlarınızdan öpüyorum nice senelere ;).</p>
       		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Enes CEYLAN</cite></footer>
     	</blockquote>
     	<blockquote class="blockquote text-center">
@@ -112,7 +111,7 @@ play()
       		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Selim ERVÜZ</cite></footer>
     	</blockquote>
     	    <blockquote class="blockquote text-center">
-      		<p class="mb-0">Ama coşkun, ama yorgun, bir yıl daha geçiyor yaşamından.. Olsun. Sevgilerin en güzeli ile yoğrul, Sene-i tevellüdünüz ferruh ola.</p>
+      		<p class="mb-0">Her mum hayatının ışığıdır, pastanda ki mumlar çoğaldıkça yaşamın daha çok aydınlanacaktır. Yeni ışığın hayırlı, doğum günün kutlu olsun…</p>
       		<footer class="blockquote-footer"><cite title="Senin İçin Yazdı">Hamza ÇELİK</cite></footer>
     	</blockquote>
 <button onclick="play()" type="button" class="btn btn-primary btn-sm">Sesi Aç</button>
