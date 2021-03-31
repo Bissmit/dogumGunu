@@ -1,5 +1,5 @@
 <?php
-$kok = "http://".$_SERVER['HTTP_HOST']."/dgp/";
+$kok = "http://".$_SERVER['HTTP_HOST'];
 $referer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'yok';
 
  /*echo "kok= $kok <br> refere= $referer";*/
